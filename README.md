@@ -1,1 +1,1 @@
-# oshi-cale
+# 推し-cale
