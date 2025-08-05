@@ -1,16 +1,30 @@
 // App.jsx
 
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
 import './App.css';
 
 function App() {
-    return (
-        <div>
-            <h1>こんにちは</h1>
-        </div>
-    );
+  return (
+    <div>
+      <FullCalendar plugins={[dayGridPlugin]} initialView="dayGridMonth" />
+    </div>
+  );
 }
 
 export default App;
+
+// import './App.css';
+
+// function App() {
+//     return (
+//         <div>
+//             <h1>こんにちは</h1>
+//         </div>
+//     );
+// }
+
+// export default App;
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
